@@ -1,0 +1,45 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+#start{
+  background: red;
+}
+
+#gameOver{
+  text-align: center;
+  background-color: mintcream;
+  width: 30%;
+  height: 20%;
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  border-radius: 10px;
+  border:2px solid black;
+}
+
+.hide{
+  display: none;
+}
+
+#OK{
+  position:relative;
+  top: 45%;
+}
+
+.score{
+  margin-left: 300px;
+}
+
+.highScore{
+  margin-left: 25px;
+}
